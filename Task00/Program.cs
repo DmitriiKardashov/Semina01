@@ -1,4 +1,6 @@
-﻿Console.WriteLine("Введите число: ");
-int x = Convert.ToInе32(Console.ReadLine());
+﻿Console.WriteLine("Введите целое число: ");
+int number = Convert.ToInt32(Console.ReadLine());
+int square = number*number;
 Console.Write("Квадрат введенного числа: ");
-Console.WriteLine(x*x);
+Console.WriteLine(square);
+Console.WriteLine($"{number} -> {square}");
